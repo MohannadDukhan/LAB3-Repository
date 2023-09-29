@@ -20,6 +20,10 @@ public class AddressBook {
         return buddies;
     }
 
+    public void subrtactBuddy(BuddyInfo buddy){
+        buddies.remove(buddy);
+    }
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo ("Tom", "Carleton", "(613)");
         AddressBook buddies = new AddressBook();
