@@ -26,5 +26,6 @@ public class AddressBook {
         buddies.addBuddy(buddy);
         buddies.removeBuddy(buddy);
         System.out.println("This course is fun!");
+        System.out.println("Editing source code outside Intellig");
     }
 }
