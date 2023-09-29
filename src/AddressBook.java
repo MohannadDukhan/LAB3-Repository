@@ -25,5 +25,6 @@ public class AddressBook {
         AddressBook buddies = new AddressBook();
         buddies.addBuddy(buddy);
         buddies.removeBuddy(buddy);
+        System.out.println("This course is fun!");
     }
 }
