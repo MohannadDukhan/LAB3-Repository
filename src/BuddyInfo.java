@@ -25,7 +25,6 @@ public class BuddyInfo {
         this.number = number;
     }
 
-    // Testing testing...
 
     // Default Constructor
     public BuddyInfo() {
@@ -33,10 +32,6 @@ public class BuddyInfo {
         this.address = "";
         this.number = "";
     }
-
-
-
-
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Mohannad", "525 elgin st", "(613)-999-9999");
